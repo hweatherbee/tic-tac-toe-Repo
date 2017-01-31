@@ -9,11 +9,12 @@ public class TicTacToeModel {
     public GameState status = GameState.CONTINUE;
     public int mvcount; 
     private int GameOver; 
-    private TicTacToeModel model;
+    //private TicTacToeModel model;
+    private TicTacToeView view;
     
     
     public TicTacToeModel() {
-        
+        view = new TicTacToeView(this);
         board = new Mark[3][3];
         
         for(int i = 0; i < 3; i++) {
@@ -50,16 +51,20 @@ public class TicTacToeModel {
         switch   (CheckForWin()) {
            case 0:
                status = GameState.TIE;
+               view.Label.setText("TIE");
                break;
            case 1:
                if (xTurn) {
                    status = GameState.XWINS;
+                   view.Label.setText("X");
                } else  {
                    status = GameState.OWINS;
+                   view.Label.setText("O");
                }
                break;
            case 2:
                status = GameState.CONTINUE;
+               view.Label.setText("No Winner Yet");
                break;
        }
        xTurn = !xTurn;
@@ -170,18 +175,18 @@ public class TicTacToeModel {
     
     public String Winner(){
         
-        GameState temp = model.status;
+        //GameState temp = model.status;
         
-        if(temp ==TicTacToeModel.GameState.XWINS){
+        if(this.status ==TicTacToeModel.GameState.XWINS){
             return "X";
         }
         
-        if(temp ==TicTacToeModel.GameState.OWINS){
+        if(this.status ==TicTacToeModel.GameState.OWINS){
             return "O";
         }
         
         else {
-            if (temp ==TicTacToeModel.GameState.TIE)
+            if (this.status ==TicTacToeModel.GameState.TIE)
                 return "TIE";
         }
         

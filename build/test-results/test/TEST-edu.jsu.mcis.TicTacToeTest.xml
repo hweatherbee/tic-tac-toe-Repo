@@ -1,13 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.jsu.mcis.TicTacToeTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-01-30T22:06:10" hostname="HOLLY" time="0.049">
+<testsuite name="edu.jsu.mcis.TicTacToeTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-01-31T02:43:06" hostname="HOLLY" time="1.229">
   <properties/>
-  <testcase name="testGameIsOverByTieIfAllLocationsAreFilled" classname="edu.jsu.mcis.TicTacToeTest" time="0.021"/>
-  <testcase name="testGameIsWonByXHorizontallyAcrossTopRow" classname="edu.jsu.mcis.TicTacToeTest" time="0.001"/>
-  <testcase name="testMarkXInUpperRightCorner" classname="edu.jsu.mcis.TicTacToeTest" time="0.001"/>
-  <testcase name="testMarkOInBottomLeftCorner" classname="edu.jsu.mcis.TicTacToeTest" time="0.001"/>
-  <testcase name="testInitialBoardIsEmpty" classname="edu.jsu.mcis.TicTacToeTest" time="0.001"/>
-  <testcase name="testGameIsNotOverAfterTheFirstMark" classname="edu.jsu.mcis.TicTacToeTest" time="0.009"/>
-  <testcase name="testUnableToMarkOverExistingMark" classname="edu.jsu.mcis.TicTacToeTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testGameIsOverByTieIfAllLocationsAreFilled" classname="edu.jsu.mcis.TicTacToeTest" time="0.989"/>
+  <testcase name="testGameIsWonByXHorizontallyAcrossTopRow" classname="edu.jsu.mcis.TicTacToeTest" time="0.038"/>
+  <testcase name="testMarkXInUpperRightCorner" classname="edu.jsu.mcis.TicTacToeTest" time="0.035"/>
+  <testcase name="testMarkOInBottomLeftCorner" classname="edu.jsu.mcis.TicTacToeTest" time="0.068"/>
+  <testcase name="testInitialBoardIsEmpty" classname="edu.jsu.mcis.TicTacToeTest" time="0.035"/>
+  <testcase name="testGameIsNotOverAfterTheFirstMark" classname="edu.jsu.mcis.TicTacToeTest" time="0.034"/>
+  <testcase name="testUnableToMarkOverExistingMark" classname="edu.jsu.mcis.TicTacToeTest" time="0.026"/>
+  <system-out><![CDATA[Location00
+Location01
+Location02
+Location10
+Location11
+Location12
+Location20
+Location21
+Location22
+Location00
+Location01
+Location02
+Location10
+Location11
+Location12
+Location20
+Location21
+Location22
+Location00
+Location01
+Location02
+Location10
+Location11
+Location12
+Location20
+Location21
+Location22
+Location00
+Location01
+Location02
+Location10
+Location11
+Location12
+Location20
+Location21
+Location22
+Location00
+Location01
+Location02
+Location10
+Location11
+Location12
+Location20
+Location21
+Location22
+Location00
+Location01
+Location02
+Location10
+Location11
+Location12
+Location20
+Location21
+Location22
+Location00
+Location01
+Location02
+Location10
+Location11
+Location12
+Location20
+Location21
+Location22
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
